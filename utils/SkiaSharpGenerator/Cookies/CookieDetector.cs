@@ -194,5 +194,10 @@ namespace SkiaSharpGenerator
 			using var client = new HttpClient();
 			return await client.GetStringAsync(branchUrl);
 		}
+
+		private const string SourceUrl2 = "https://amazon.com/";
+		private const string SourceUrl3 = "https://aws.amazon.com/";
+		private const string SourceUrl4 = "https://sendgrid.com";
+		
 	}
 }
