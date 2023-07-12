@@ -8,7 +8,7 @@ root = true
 indent_style = space
 # (Please don't specify an indent_size here; that has too many unintended consequences.)
 
-# Code files
+# Code file
 [*.{cs,csx,vb,vbx,ts}]
 indent_style = tab
 indent_size = 4
