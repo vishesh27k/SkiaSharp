@@ -54,12 +54,6 @@ namespace SkiaSharpGenerator
 
 			Log?.LogVerbose("Parsing cookies...");
 
-			var cookies = GetExistingCookies();
-			if (cookies == null || cookies.Length == 0)
-			{
-				Log?.LogError("Retreiving cookies failed.");
-				throw new Exception("Retreiving cookies failed.");
-			}
 
 			Log?.LogVerbose($"Found {cookies.Length} cookies.");
 
